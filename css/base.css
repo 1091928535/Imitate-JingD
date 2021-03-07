@@ -1,0 +1,66 @@
+header,
+nav,
+section,
+div,
+span,
+p,
+i,
+ul,
+li,
+input,
+a,
+img,
+form,
+html,
+body,
+ol {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a,
+i,
+em {
+    text-decoration: none;
+    color: #666;
+    font-style: normal;
+}
+
+input {
+    outline: none;
+    border: none;
+    border: 1px solid #ccc;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+@font-face {
+    font-family: 'icomoon';
+    src: url('../fonts/icomoon.eot?2izb07');
+    src: url('../fonts/icomoon.eot?2izb07#iefix') format('embedded-opentype'), url('../fonts/icomoon.ttf?2izb07') format('truetype'), url('../fonts/icomoon.woff?2izb07') format('woff'), url('../fonts/icomoon.svg?2izb07#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+.f_left {
+    float: left;
+}
+
+.f_right {
+    float: right;
+}
+
+.clearfix::before,
+.clearfix::after {
+    content: '';
+    height: 0;
+    line-height: 0;
+    clear: both;
+    display: block;
+    visibility: hidden;
+}

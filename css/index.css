@@ -1,0 +1,338 @@
+.jd_layout {
+    min-width: 360px;
+    max-width: 540px;
+    margin: 0 auto;
+    background-color: #f6f6f6;
+}
+
+.jd_search {
+    width: 100%;
+    height: 44px;
+    max-width: 540px;
+    line-height: 44px;
+    /* 固定在头部 */
+    position: fixed;
+    z-index: 12;
+    background-color: rgba(255, 0, 0, 0);
+}
+
+.jd_search .logo {
+    display: block;
+    width: 60px;
+    height: 44px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-family: 'icomoon';
+    font-size: 28px;
+    text-align: center;
+    color: #fff;
+}
+
+.jd_search .jd_searchInput {
+    height: 100%;
+    width: 100%;
+    padding: 0 60px;
+}
+
+.jd_search .jd_searchInput input {
+    /* 这里应该是100% */
+    width: 100%;
+    height: 30px;
+    border-radius: 20px;
+    padding: 0 10px 0 84px;
+}
+
+.jd_search .jd_searchInput i {
+    font-family: 'icomoon';
+    font-size: 14px;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 122px;
+    height: 44px;
+    line-height: 48px;
+}
+
+.jd_search .jd_searchInput i::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 16px;
+    left: -46px;
+    width: 20px;
+    height: 15px;
+    background: url(../image/jd_logo.png)no-repeat;
+    background-size: 20px 15px;
+}
+
+.jd_search .jd_searchInput i::after {
+    display: block;
+    height: 14px;
+    content: '';
+    border-right: 1px solid #ccc;
+    position: absolute;
+    top: 17px;
+    left: -14px;
+}
+
+.jd_search .logon {
+    width: 60px;
+    height: 44px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+}
+
+.jd_banner {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.jd_bannerImg {
+    /* width: 1000%; */
+    /* 如果是absolute，子元素会撑不开父元素，导致下面的盒子上移
+    position: absolute; */
+    position: relative;
+    width: 800%;
+}
+
+.jd_bannerImg li {
+    width: 12.5%;
+    float: left;
+}
+
+.jd_bannerImg li img {
+    width: 100%;
+    display: block;
+}
+
+.jd_banner_icon {
+    width: 88px;
+    height: 7px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin-left: -44px;
+    margin-bottom: 10px;
+}
+
+.jd_banner_icon li {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    float: left;
+    margin: 0 2px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.jd_banner_icon .current {
+    background-color: #fa2c19;
+}
+
+.jd_nav {
+    width: 100%;
+}
+
+.jd_nav ul li img {
+    width: 58px;
+    height: 58px;
+}
+
+.jd_nav ul li a {
+    display: block;
+    width: 20%;
+    text-align: center;
+    float: left;
+    margin: 15px 0;
+}
+
+.jd_nav ul li a span {
+    height: 20px;
+    display: block;
+    font-size: 16px;
+    margin-top: 8px;
+}
+
+.jd_prodictTitle img {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.productBox {
+    width: 100%;
+    height: 100%;
+    margin: 0px 10px 10px 10px;
+}
+
+.jd_prodictContent {
+    width: 100%;
+}
+
+.jd_prodictContent1 {
+    width: 48%;
+    float: left;
+    padding: 9px 20px 7px;
+    background-color: #fff;
+}
+
+.jd_prodictContent1 span {
+    width: 80%;
+    font-size: 24px;
+    color: rgb(93, 191, 252);
+}
+
+.jd_prodictContent1 p {
+    width: 80%;
+    font-size: 16px;
+    color: #666;
+}
+
+.jd_prodictContent1 img {
+    width: 40%;
+    height: 40%;
+    margin: 5px 6px 0;
+}
+
+.border_btm {
+    border-bottom: 1px solid #f5f5f5;
+}
+
+.border_right {
+    border-right: 1px solid #f5f5f5;
+}
+
+.jd_product_sk_l {
+    width: 100%;
+    line-height: 50px;
+    padding-left: 10px;
+}
+
+.jd_product_sk .jd_prodictTitle {
+    width: 96%;
+}
+
+.jd_product_sk .jd_prodictTitle {
+    background-color: #fff;
+}
+
+.jd_product_sk_l div {
+    display: inline-block;
+}
+
+.jd_product_sk_l a div:nth-child(1) {
+    font-size: 1rem;
+    color: black;
+}
+
+.jd_product_sk_l a div:nth-child(2) {
+    font-size: 16px;
+    color: #ff2727;
+}
+
+.jd_product_sk_l a:nth-child(1) {
+    display: inline-block;
+    width: 70%;
+}
+
+.jd_product_sk_l a:nth-child(2) {
+    display: inline-block;
+    width: 20%;
+}
+
+.jd_product_sk_l a img {
+    width: 30px;
+    height: 25px;
+    vertical-align: middle;
+}
+
+.jd_product_sk_l a div:nth-child(3) {
+    margin-left: 10px;
+}
+
+.jd_product_sk_l a div:nth-child(3) span {
+    display: inline-block;
+    width: 22px;
+    height: 26px;
+    background-color: #ff2727;
+    line-height: 26px;
+    text-align: center;
+    color: #fff;
+    border-radius: 6px;
+}
+
+.jd_product_sk_l a div:nth-child(3) span:nth-child(2),
+.jd_product_sk_l a div:nth-child(3) span:nth-child(4) {
+    width: 5px;
+    color: #ff2727;
+    background-color: transparent;
+}
+
+.jd_product_sk_l a:nth-child(2) {
+    float: right;
+    color: #ff2727;
+    font-size: .8rem;
+}
+
+.jd_product_sk_l a:nth-child(2)::after {
+    content: '';
+    background: url(../upload/jd_sk_icon.png);
+    background-size: cover;
+    display: inline-block;
+    width: .8rem;
+    height: .8rem;
+    vertical-align: middle;
+    margin-left: 2px;
+}
+
+.jd_product_sk_f {
+    width: 100%;
+}
+
+.jd_product_sk_f ul li:nth-child(1) {
+    margin-left: 10px;
+}
+
+.jd_product_sk_f li {
+    width: 23%;
+    display: inline-block;
+    text-align: center;
+}
+
+.jd_product_sk_f li a {
+    display: inline-block;
+    width: 80%;
+}
+
+.jd_product_sk_f li img {
+    width: 100%;
+}
+
+.jd_product_sk_f li p:nth-child(2) {
+    display: block;
+    margin-top: 10px;
+    color: #f2270c;
+    font-size: 16px;
+}
+
+.jd_product_sk_f li p:nth-child(2) i {
+    color: #f2270c;
+    font-size: 10px;
+}
+
+.jd_product_sk_f li p i {
+    font-size: 12px;
+}
+
+.jd_product_sk_f li p {
+    color: #999;
+    font-size: 16px;
+}
+
+.jd_product_sk_f li p:nth-child(3) {
+    margin-bottom: 10px;
+}
